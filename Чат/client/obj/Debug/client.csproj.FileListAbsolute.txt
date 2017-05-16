@@ -1,0 +1,13 @@
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\bin\Debug\WpfApplication1.exe.config
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\bin\Debug\WpfApplication1.exe
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\bin\Debug\WpfApplication1.pdb
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\client_window.baml
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\client_window.g.cs
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\App.g.cs
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\WpfApplication1.g.resources
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\WpfApplication1.exe
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\client\obj\Debug\WpfApplication1.pdb

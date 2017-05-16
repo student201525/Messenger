@@ -1,0 +1,6 @@
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\server\bin\Debug\server.exe.config
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\server\bin\Debug\server.exe
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\server\bin\Debug\server.pdb
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\server\obj\Debug\server.csprojResolveAssemblyReference.cache
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\server\obj\Debug\server.exe
+C:\Users\сергей\Downloads\messenger-master (2)\messenger-master\server\obj\Debug\server.pdb

@@ -1,0 +1,50 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="client.MainWindow"
+        Title="Чат-клиент" Height="350" Width="450" FontSize="18">
+    <Grid d:IsHidden="True">
+        <Grid ShowGridLines="False" d:IsHidden="True" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <DockPanel Grid.Row="0" Margin="2">
+                <Expander x:Name="controls" Header="Войти в чат" BorderThickness="1" BorderBrush="Black">
+                    <Grid Margin="2">
+                        <Grid.RowDefinitions >
+                            <RowDefinition />
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition />
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Content="IP:" />
+                        <TextBox x:Name="ip_txt" Grid.Row="0" Grid.Column="1" Text="127.0.0.1" Margin="2"/>
+
+                        <Label Grid.Row="1" Grid.Column="0" Content="Имя пользователя:"/>
+                        <TextBox x:Name="userName_txt" Grid.Row="1" Grid.Column="1" Margin="2"/>
+                        <Button x:Name="conn_btn" Grid.Row="0" Grid.Column="2" Margin="2" Content="Подключиться" Click="connectButtonClick" />
+                        <Button x:Name="disconnect_btn" Grid.Row="1" Grid.Column="2" Margin="2" Content="Отключиться" Click="disconnectButtonClick" />
+
+                    </Grid>
+                </Expander>
+            </DockPanel>
+            <DockPanel Grid.Row="1" Margin="2" d:IsHidden="True">
+                <RichTextBox x:Name="chat_txt" BorderBrush="Black" BorderThickness="1" IsReadOnly="True" VerticalScrollBarVisibility="Visible">
+                    <FlowDocument>
+                        <Paragraph/>
+                    </FlowDocument>
+                </RichTextBox>
+            </DockPanel>
+            <DockPanel Grid.Row="2" Margin="2">
+                <TextBox x:Name="input_txt" BorderBrush="Black" BorderThickness="1" KeyUp="input_txt_KeyUp"/>
+            </DockPanel>
+            <Button x:Name="send_btn" Grid.Row="3" Margin="2" HorizontalAlignment="Right" Content=" Отправить " Click="sendButtonClick" />
+        </Grid>
+    </Grid>
+</Window>
